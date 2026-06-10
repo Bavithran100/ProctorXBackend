@@ -40,7 +40,8 @@ public class SecurityConfig {
 
         config.setAllowedOriginPatterns(List.of(
                 "http://localhost:5173",
-                "https://*.vercel.app"
+                "https://*.vercel.app",
+                "https://proctor-x-frontend.vercel.app"
         ));
 
         config.setAllowedMethods(List.of(

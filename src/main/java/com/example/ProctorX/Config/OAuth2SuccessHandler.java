@@ -51,6 +51,6 @@ public class OAuth2SuccessHandler implements AuthenticationSuccessHandler {
         }
 
         // Redirect to React login page
-        response.sendRedirect("http://localhost:5173/login?oauth=true");
+        response.sendRedirect("https://proctor-x-frontend.vercel.app/login?oauth=true");
     }
 }
